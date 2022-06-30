@@ -1,0 +1,89 @@
+.text {
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.leftSide {
+    height: 80%;
+    margin: 10vh 8vw 5vh 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.circles {
+    position: relative;
+    left: 50px;
+}
+
+.square {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.textRight {
+    font-size: 18px;
+    text-align: right;
+    font-weight: 100;
+}
+
+.textLeft {
+        font-size: 18px;
+        color: #8692A6;
+        text-align: justify;
+        font-weight: 200;
+}
+
+.accBox {
+    border-radius: 6px;
+    padding: 26px 35px;
+    margin: 10px 80px 10px 0px;
+    display: flex;
+    box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.04);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.boxIcon1 {
+    font-size: 28px;
+    color: #1565D8;
+}
+.boxIcon2 {
+    margin-left: 20%;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+/* // textfields */
+.outlined {
+    padding: 15px 0px 15px;
+}
+
+.continueBtn {
+    width: 80%;
+    margin: 15px 0px !important;
+    padding: 23px !important;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+.googleBtn{
+    width: 80%;
+    margin: 15px 0px !important;
+    padding: 13px !important;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08) !important;
+}
